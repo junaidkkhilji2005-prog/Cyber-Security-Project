@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cybersecurity and IPsec VPN educational assignment">
+    <title>CyberShield | Cybersecurity & IPsec VPN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                <span class="logo-icon">⬡</span> Cyber<span>Shield</span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cybersecurity">Cybersecurity</a></li>
+                <li><a href="#ipsec">IPsec VPN</a></li>
+                <li><a href="#working">How It Works</a></li>
+                <li><a href="#advantages">Advantages</a></li>
+                <li><a href="#quiz" class="nav-btn">Take Quiz ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-grid"></div>
+
+            <div class="container hero-content">
+                <div class="badge">
+                    <span class="status-dot"></span>
+                    CYBERSECURITY AWARENESS PROJECT
+                </div>
+
+                <h1>
+                    Securing the Digital World with
+                    <span class="gradient-text">IPsec VPN</span>
+                </h1>
+
+                <p class="hero-description">
+                    Explore the world of cybersecurity and discover how
+                    IPsec VPN protects data, secures network communication,
+                    and ensures privacy across the internet.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cybersecurity" class="btn btn-primary">Explore Project ↗</a>
+                    <a href="#ipsec" class="btn btn-secondary">Learn About IPsec</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div>
+                        <h3>3</h3>
+                        <p>Security Principles</p>
+                    </div>
+                    <div>
+                        <h3>2</h3>
+                        <p>IPsec Modes</p>
+                    </div>
+                    <div>
+                        <h3>3</h3>
+                        <p>Core Protocols</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+                <div class="shield">
+                    <div class="shield-inner">
+                        <span>🔐</span>
+                    </div>
+                </div>
+                <div class="floating-card card-one">🛡️ <span>Secure Network</span></div>
+                <div class="floating-card card-two">🔒 <span>Encrypted Data</span></div>
+                <div class="floating-card card-three">🌐 <span>Private Connection</span></div>
+            </div>
+        </section>
+
+        <!-- Cybersecurity Section -->
+        <section class="section" id="cybersecurity">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">01 — INTRODUCTION</span>
+                    <h2>What is <span class="gradient-text">Cybersecurity?</span></h2>
+                    <p>
+                        Cybersecurity is the practice of protecting computers,
+                        networks, applications, and data from unauthorized access,
+                        attacks, damage, and theft.
+                    </p>
+                </div>
+
+                <div class="info-grid">
+                    <article class="info-card">
+                        <div class="card-icon">🔐</div>
+                        <h3>Confidentiality</h3>
+                        <p>
+                            Ensures that information is accessible only to
+                            authorized individuals and systems.
+                        </p>
+                        <span class="card-number">01</span>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon">🛡️</div>
+                        <h3>Integrity</h3>
+                        <p>
+                            Protects information from unauthorized modification
+                            and ensures that data remains accurate.
+                        </p>
+                        <span class="card-number">02</span>
+                    </article>
+
+                    <article class="info-card">
+                        <div class="card-icon">⚡</div>
+                        <h3>Availability</h3>
+                        <p>
+                            Ensures that systems and information are available
+                            to authorized users when needed.
+                        </p>
+                        <span class="card-number">03</span>
+                    </article>
+                </div>
+
+                <div class="highlight-box">
+                    <div class="highlight-icon">💡</div>
+                    <div>
+                        <h3>The CIA Triad</h3>
+                        <p>
+                            Confidentiality, Integrity, and Availability are the
+                            three fundamental principles of information security.
+                            Together, they help protect digital information and systems.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- IPsec VPN Section -->
+        <section class="section section-dark" id="ipsec">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">02 — IPSEC VPN</span>
+                    <h2>Understanding <span class="gradient-text">IPsec VPN</span></h2>
+                    <p>
+                        IPsec is a collection of protocols that secures IP
+                        communications through authentication, integrity checks,
+                        and encryption when encryption is configured.
+                    </p>
+                </div>
+
+                <div class="ipsec-layout">
+                    <div class="ipsec-text">
+                        <h3>What is IPsec?</h3>
+                        <p>
+                            IPsec stands for Internet Protocol Security. It operates
+                            at the network layer and helps protect data traveling
+                            across IP networks.
+                        </p>
+                        <p>
+                            An IPsec VPN creates a protected communication path
+                            between devices or networks over an untrusted network,
+                            such as the public internet.
+                        </p>
+
+                        <ul class="check-list">
+                            <li>✓ Protects IP network traffic</li>
+                            <li>✓ Supports data confidentiality and integrity</li>
+                            <li>✓ Provides authentication between peers</li>
+                            <li>✓ Supports secure site-to-site connections</li>
+                        </ul>
+                    </div>
+
+                    <div class="network-card">
+                        <div class="network-node">
+                            <span>💻</span>
+                            <p>Your Device</p>
+                        </div>
+
+                        <div class="network-connection">
+                            <span class="connection-label">Encrypted Tunnel*</span>
+                            <div class="connection-line">
+                                <span class="data-packet"></span>
+                            </div>
+                            <span class="connection-lock">🔒</span>
+                        </div>
+
+                        <div class="network-node">
+                            <span>🖥️</span>
+                            <p>Remote Network</p>
+                        </div>
+                        <p class="network-note">*Encryption depends on the configured IPsec security protocol and algorithms.</p>
+                    </div>
+                </div>
+
+                <div class="section-heading sub-heading">
+                    <span class="section-tag">IPSEC MODES</span>
+                    <h2>Two Modes of <span class="gradient-text">Operation</span></h2>
+                </div>
+
+                <div class="mode-grid">
+                    <article class="mode-card">
+                        <span class="mode-label">MODE 01</span>
+                        <h3>Transport Mode</h3>
+                        <p>
+                            Protects the payload of an IP packet while keeping
+                            the original IP header visible. It is commonly used
+                            for host-to-host communication.
+                        </p>
+                    </article>
+
+                    <article class="mode-card">
+                        <span class="mode-label">MODE 02</span>
+                        <h3>Tunnel Mode</h3>
+                        <p>
+                            Protects the original IP packet by encapsulating it
+                            inside a new IP packet. It is commonly used in
+                            site-to-site VPNs.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Protocols Section -->
+        <section class="section" id="protocols">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">03 — CORE PROTOCOLS</span>
+                    <h2>IPsec <span class="gradient-text">Protocols</span></h2>
+                    <p>
+                        IPsec uses different protocols to provide authentication,
+                        data integrity, encryption, and secure key management.
+                    </p>
+                </div>
+
+                <div class="protocol-grid">
+                    <article class="protocol-card">
+                        <div class="protocol-icon">🔑</div>
+                        <span class="protocol-tag">AUTHENTICATION</span>
+                        <h3>AH</h3>
+                        <p class="protocol-full">Authentication Header</p>
+                        <p>
+                            Provides data integrity and source authentication.
+                            AH does not encrypt data and is generally incompatible
+                            with NAT because it protects parts of the IP header.
+                        </p>
+                    </article>
+
+                    <article class="protocol-card featured">
+                        <div class="protocol-icon">🔒</div>
+                        <span class="protocol-tag">ENCRYPTION & SECURITY</span>
+                        <h3>ESP</h3>
+                        <p class="protocol-full">Encapsulating Security Payload</p>
+                        <p>
+                            Provides confidentiality through encryption and can
+                            also provide integrity, authentication, and replay
+                            protection when configured.
+                        </p>
+                    </article>
+
+                    <article class="protocol-card">
+                        <div class="protocol-icon">🤝</div>
+                        <span class="protocol-tag">KEY MANAGEMENT</span>
+                        <h3>IKE</h3>
+                        <p class="protocol-full">Internet Key Exchange</p>
+                        <p>
+                            Negotiates security parameters, authenticates peers,
+                            and establishes keys and security associations for
+                            IPsec communication.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section class="section section-dark" id="working">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">04 — WORKING PROCESS</span>
+                    <h2>How Does an <span class="gradient-text">IPsec VPN</span> Work?</h2>
+                    <p>
+                        A simplified overview of how two devices establish
+                        a secure IPsec connection.
+                    </p>
+                </div>
+
+                <div class="timeline">
+                    <article class="timeline-item">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Initiation</h3>
+                            <p>
+                                Two VPN peers begin communication and negotiate
+                                the parameters needed for a secure connection.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Authentication</h3>
+                            <p>
+                                The peers verify each other's identity using
+                                configured methods such as pre-shared keys
+                                or digital certificates.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Key Exchange</h3>
+                            <p>
+                                IKE negotiates security settings and establishes
+                                cryptographic keys and security associations.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Secure Data Transfer</h3>
+                            <p>
+                                IPsec protects network traffic according to the
+                                negotiated settings while it travels between peers.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div class="timeline-number">05</div>
+                        <div class="timeline-content">
+                            <h3>Connection Maintenance</h3>
+                            <p>
+                                The VPN maintains the connection and can rekey
+                                security associations or end the session when needed.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advantages & Disadvantages -->
+        <section class="section" id="advantages">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">05 — EVALUATION</span>
+                    <h2>Advantages & <span class="gradient-text">Disadvantages</span></h2>
+                    <p>
+                        Understanding the benefits and limitations of IPsec VPN
+                        helps organizations choose suitable security solutions.
+                    </p>
+                </div>
+
+                <div class="pros-cons-grid">
+                    <div class="pros-card">
+                        <h3>✓ Advantages</h3>
+                        <ul>
+                            <li>Protects data traveling across public networks</li>
+                            <li>Supports authentication and integrity checks</li>
+                            <li>Enables secure communication between offices</li>
+                            <li>Can protect traffic at the network layer</li>
+                            <li>Supports multiple encryption algorithms</li>
+                        </ul>
+                    </div>
+
+                    <div class="cons-card">
+                        <h3>✕ Disadvantages</h3>
+                        <ul>
+                            <li>Configuration can be complex</li>
+                            <li>Encryption and encapsulation add overhead</li>
+                            <li>Incorrect settings can weaken security</li>
+                            <li>Network troubleshooting may be difficult</li>
+                            <li>Requires ongoing maintenance and monitoring</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Applications -->
+        <section class="section section-dark" id="applications">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">06 — REAL-WORLD USES</span>
+                    <h2>Applications of <span class="gradient-text">IPsec VPN</span></h2>
+                </div>
+
+                <div class="applications-grid">
+                    <div class="application-card">
+                        <span>🏢</span>
+                        <h3>Business Networks</h3>
+                        <p>Secure communication between company offices.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <span>🏠</span>
+                        <h3>Remote Access</h3>
+                        <p>Connect remote employees to private networks.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <span>☁️</span>
+                        <h3>Cloud Networks</h3>
+                        <p>Protect traffic between on-premises and cloud networks.</p>
+                    </div>
+
+                    <div class="application-card">
+                        <span>🏥</span>
+                        <h3>Healthcare</h3>
+                        <p>Help protect sensitive information exchanged between facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quiz -->
+        <section class="section quiz-section" id="quiz">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">07 — TEST YOUR KNOWLEDGE</span>
+                    <h2>Cybersecurity <span class="gradient-text">Quiz</span></h2>
+                    <p>Answer the following questions to test your understanding.</p>
+                </div>
+
+                <div class="quiz-container">
+                    <div class="quiz-header">
+                        <span id="questionCounter">Question 1 of 5</span>
+                        <span id="scoreDisplay">Score: 0</span>
+                    </div>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill" id="progressFill"></div>
+                    </div>
+
+                    <h3 id="questionText">Loading question...</h3>
+
+                    <div class="quiz-options" id="quizOptions"></div>
+
+                    <p id="feedback" class="feedback" aria-live="polite"></p>
+
+                    <button id="nextBtn" class="btn btn-primary next-btn" disabled>
+                        Next Question →
+                    </button>
+
+                    <div id="quizResult" class="quiz-result hidden">
+                        <h3>Quiz Completed! 🎉</h3>
+                        <p id="finalScore"></p>
+                        <button id="restartBtn" class="btn btn-primary">Restart Quiz ↻</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Conclusion -->
+        <section class="section section-dark" id="conclusion">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="section-tag">08 — CONCLUSION</span>
+                    <h2>Project <span class="gradient-text">Conclusion</span></h2>
+                    <p>
+                        Cybersecurity plays a vital role in protecting digital
+                        systems and information. IPsec VPN is one technology
+                        that helps secure communication over IP networks.
+                        By providing authentication, integrity, and encryption
+                        when configured, IPsec helps organizations establish
+                        protected connections across untrusted networks.
+                    </p>
+                </div>
+
+                <div class="highlight-box conclusion-box">
+                    <div class="highlight-icon">🛡️</div>
+                    <div>
+                        <h3>Stay Secure. Stay Protected.</h3>
+                        <p>
+                            Understanding cybersecurity and secure networking
+                            is an important step toward building a safer digital world.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <a href="#home" class="logo">⬡ Cyber<span>Shield</span></a>
+            <p>Cybersecurity & IPsec VPN — Educational Assignment</p>
+            <p class="copyright">© <span id="year"></span> CyberShield. Created for educational purposes.</p>
+        </div>
+    </footer>
+
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
